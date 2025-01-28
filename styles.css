@@ -44,6 +44,10 @@ main {
 
   border: 1px solid #2f3279;
   overflow-y: hidden;
+
+  @media (max-width: 525px) {
+    width: 330px;
+  }
 }
 
 form {
